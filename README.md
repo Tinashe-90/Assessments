@@ -27,13 +27,14 @@ Platform support
 This will be run in a unix-ish environment (OS X). If you choose to use a compiled language,
 please keep this in mind. Please use platform-agnostic constructs where possible (line-endings
 and file-path-separators are two problematic areas).
-Sample input:
+**Sample input:**
+
 Lions 3, Snakes 3
 Tarantulas 1, FC Awesome 0
 Lions 1, FC Awesome 1
 Tarantulas 3, Snakes 1
 Lions 4, Grouches 0
-Expected output:
+**Expected output:**
 1. Tarantulas, 6 pts
 2. Lions, 5 pts
 3. FC Awesome, 1 pt
